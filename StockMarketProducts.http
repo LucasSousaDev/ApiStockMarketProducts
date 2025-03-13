@@ -1,0 +1,6 @@
+@StockMarketProducts_HostAddress = http://localhost:5049
+
+GET {{StockMarketProducts_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
