@@ -75,7 +75,7 @@ namespace StockMarketProducts.Controllers
             return NoContent();
         }
 
-        // 6. Adicionar um produto a uma categoria
+        // 6. Adicionar produto a uma categoria
         [HttpPost("{id}/produtos")]
         public ActionResult AdicionarProdutoACategoria(int id, [FromBody] ProdutoModel produto)
         {
